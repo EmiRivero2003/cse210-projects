@@ -96,7 +96,6 @@ public class GoalManager
         }
     }
 
-    // ---- Optional helper ----
     public int Count => _goals.Count;
     public Goal GetAt(int index) => _goals[index];
 }
